@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Gestão da biblioteca</title>
+    </head>
+    <body>
+        <h1>Pesquisar Livros</h1>
+        <form action="pesquisar.php" method="get">
+            <label for="campo">Campo a pesquisar</label>
+            <select name="campo">
+                <option value="isbn">ISBN</option>
+                <option value="titulo">Título</option>
+                <option value="editora">Editora</option>
+                <option value="autor">Autor</option>
+                <option value="tamanho">Tamanho</option>
+                <option value="n_paginas">Número de Páginas</option>
+            </select>
+        <p><label for="valor">Texto a pesquisar: </label>
+        <input type="text" name="valor" size="50" required maxlength="50"></p>
+    
+        <input type="submit" value="Pesquisar">
+        </form>
+        <a href="index.php" target="_self">Volta ao Menu</a>
+    </body>
+</html>
