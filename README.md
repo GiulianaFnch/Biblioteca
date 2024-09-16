@@ -69,7 +69,7 @@ Antes de rodar o projeto, certifique-se de que tem as seguintes ferramentas inst
    - Importe o arquivo de banco de dados:
      - Selecione o banco de dados `biblioteca`.
      - Clique na aba "Import".
-     - Clique em "Choose File" e selecione o arquivo `biblioteca.sql` localizado na pasta `/database` do projeto.
+     - Clique em "Choose File" e selecione o arquivo `id22264266_bd_biblioteca16.09.sql` localizado na pasta `/database` do projeto.
      - Clique em "Go" para importar a estrutura e os dados.
 
 4. **Abra o projeto no navegador**:
