@@ -3,8 +3,8 @@ session_start();
 
 // liga á base de dados
 $servidor = "localhost";
-$utilizador = "id22264266_giuliana";
-$senha = "#Avelar123";
+$utilizador = "root";
+$senha = "";
 $bd = "id22264266_bd_biblioteca";
 //criar a variavel ligacao (1º ip do servidor, 2º nome do utilizador)
 // (3º senha por defeito vazia, e 4º nome da base de dados)   
